@@ -1,7 +1,14 @@
-<% provide(:title, 'Home') %>
-<h1>BIMLode</h1>
-<p>
-  Home of
-  <a href="https://github.com/davidlowe99/bimlode/">BIMLode</a>
-  A searchable repository for all your BIM content.
-</p>
+<div class="center hero-unit">
+  <h1>Welcome to BIMLode</h1>
+
+  <h2>
+    Home of
+	  <a href="https://github.com/davidlowe99/bimlode/">BIMLode.</a>  A searchable repository for all your BIM content.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+<div>
+	Powered by
+	<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+</div>
